@@ -4,8 +4,6 @@ TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64
 EXTRA_CFLAGS="-I./android-lib/include" 
 EXTRA_LDFLAGS="-L./android-lib/lib"
 
-./x264/x264_build_android.sh
-
 function build_one
 {
 ./configure \
