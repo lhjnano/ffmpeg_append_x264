@@ -1,5 +1,5 @@
 echo DOWNLOAd X264
-git clone git://git.videolan.org/x264.git
+git clone https://github.com/qupai/x264.git
 
 echo BUILD X264
 cp x264_build_android.sh ./x264/
