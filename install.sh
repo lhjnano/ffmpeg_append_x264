@@ -7,3 +7,5 @@ cp x264_build_android.sh ./x264/
 
 echo BUILD FFMPEG
 ./build_android.sh
+
+@echo Complete install x264
