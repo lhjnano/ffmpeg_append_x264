@@ -21,9 +21,6 @@ function build_one
  --enable-version3 \
  --enable-libx264 \
  --enable-encoder=libx264 \
- --enable-libfreetype \
- --enable-libfontconfig \
- --enable-libfribidi \
  --cross-prefix=$TOOLCHAIN/bin/arm-linux-androideabi- \
  --target-os=linux \
  --arch=arm \
