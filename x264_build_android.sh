@@ -9,7 +9,6 @@ PREFIX=../android-lib
     --enable-shared \
     --enable-pic \
     --disable-asm \
-    --disable-cli \
     --host=arm-linux \
     --cross-prefix=$TOOLCHAIN/bin/arm-linux-androideabi- \
     --sysroot=$PLATFORM
