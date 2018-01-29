@@ -11,5 +11,6 @@ cd ..
 ./build_android.sh
 
 cp Android.mk android/arm
+cp -af android-lib/* androind/arm/
 
 @echo Complete install x264
