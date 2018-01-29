@@ -10,4 +10,6 @@ echo BUILD FFMPEG
 cd ..
 ./build_android.sh
 
+cp Android.mk android/arm
+
 @echo Complete install x264
