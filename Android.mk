@@ -35,3 +35,15 @@ LOCAL_MODULE:= libswresample
 LOCAL_SRC_FILES:= lib/libswresample-1.so
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/include
 include $(PREBUILT_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE:= libpostproc
+LOCAL_SRC_FILES:= lib/libpostproc-53.so
+LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/include
+include $(PREBUILT_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE:= libx264
+LOCAL_SRC_FILES:= lib/libx264-147.so
+LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/include
+include $(PREBUILT_SHARED_LIBRARY)

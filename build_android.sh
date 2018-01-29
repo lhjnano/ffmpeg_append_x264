@@ -2,7 +2,7 @@ NDK=$HOME/Android/Sdk/ndk-bundle
 PLATFORM=$NDK/platforms/android-19/arch-arm/
 TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64
 EXTRA_CFLAGS="-I./android-lib/include" 
-EXTRA_LDFLAGS="-L./android-lib/lib -lx264"
+EXTRA_LDFLAGS="-L./android-lib/lib "
 
 function build_one
 {
